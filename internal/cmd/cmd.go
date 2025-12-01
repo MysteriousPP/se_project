@@ -9,6 +9,7 @@ import (
 
 	"se_project/internal/controller/health"
 	"se_project/internal/controller/hello"
+	"se_project/internal/controller/svc"
 	"se_project/internal/controller/user"
 )
 
@@ -25,6 +26,7 @@ var (
 					hello.NewV1(),
 					user.User,
 					health.Health,
+					svc.Svc,
 				)
 			})
 			s.Run()
