@@ -12,8 +12,8 @@ import (
 type User struct {
 	g.Meta   `orm:"table:user, do:true"`
 	UserID   interface{} // 用户唯一ID
-	Phone    interface{} // 登陆账号（手机号）
+	Phone    interface{} // 登录账号（手机号）
 	Password interface{} // SHA256加盐加密存储
-	Role     interface{} // 1=银发端，2=子女端
+	Role     interface{} // 1=银发端, 2=子女端
 	Nickname interface{} // 用户昵称
 }

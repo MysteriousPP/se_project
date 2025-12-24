@@ -11,7 +11,7 @@ import (
 // CommunityService is the golang structure of table community_service for DAO operations like Where/Data.
 type CommunityService struct {
 	g.Meta        `orm:"table:community_service, do:true"`
-	ServiceId     interface{} //
+	ServiceId     interface{} // 服务ID
 	ServiceName   interface{} // 服务名称
 	Price         interface{} // 服务价格
 	Duration      interface{} // 服务时长(分钟)

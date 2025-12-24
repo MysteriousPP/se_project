@@ -10,7 +10,7 @@ import (
 
 // ServiceBooking is the golang structure for table service_booking.
 type ServiceBooking struct {
-	BookingId   int         `json:"bookingId"   orm:"bookingId"   description:""`                    //
+	BookingId   int         `json:"bookingId"   orm:"bookingId"   description:"预约ID"`                // 预约ID
 	ServiceId   int         `json:"serviceId"   orm:"serviceId"   description:"服务ID"`                // 服务ID
 	ElderUserId int         `json:"elderUserId" orm:"elderUserId" description:"预约老人ID"`              // 预约老人ID
 	BookedBy    int         `json:"bookedBy"    orm:"bookedBy"    description:"预约人ID"`               // 预约人ID

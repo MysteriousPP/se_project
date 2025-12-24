@@ -21,7 +21,7 @@ type ReminderDao struct {
 
 // ReminderColumns defines and stores column names for the table reminder.
 type ReminderColumns struct {
-	ReminderId  string //
+	ReminderId  string // 提醒ID
 	CreatedBy   string // 创建人ID
 	ElderUserId string // 提醒对象ID
 	Title       string // 提醒标题

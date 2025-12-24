@@ -16,5 +16,5 @@ type BindRelation struct {
 	ChildUserID interface{} // 子女端用户ID
 	ElderUserId interface{} // 银发端用户ID
 	BindTime    *gtime.Time // 绑定时间
-	Status      interface{} // 1=有效，0=已解绑
+	Status      interface{} // 1=有效, 0=已解绑
 }

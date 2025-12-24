@@ -21,11 +21,11 @@ type FamilyFeedDao struct {
 
 // FamilyFeedColumns defines and stores column names for the table family_feed.
 type FamilyFeedColumns struct {
-	FeedId     string //
+	FeedId     string // 动态ID
 	AuthorId   string // 发布者ID
 	Content    string // 动态内容
 	Images     string // 图片URL数组
-	CreateTime string //
+	CreateTime string // 创建时间
 	IsDeleted  string // 0=正常, 1=已删除
 }
 

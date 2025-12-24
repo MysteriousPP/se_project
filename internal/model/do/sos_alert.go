@@ -12,10 +12,10 @@ import (
 // SosAlert is the golang structure of table sos_alert for DAO operations like Where/Data.
 type SosAlert struct {
 	g.Meta      `orm:"table:sos_alert, do:true"`
-	AlertId     interface{} //
+	AlertId     interface{} // 求助记录ID
 	ElderUserId interface{} // 触发求助的老人ID
 	TriggerTime *gtime.Time // 触发时间
-	Location    interface{} // 求助时的位置信息
+	Location    interface{} // 求助时的详细地址描述
 	Longitude   interface{} // 经度
 	Latitude    interface{} // 纬度
 	Status      interface{} // 1=待处理, 2=已接听, 3=已处理

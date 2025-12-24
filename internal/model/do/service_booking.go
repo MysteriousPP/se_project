@@ -12,7 +12,7 @@ import (
 // ServiceBooking is the golang structure of table service_booking for DAO operations like Where/Data.
 type ServiceBooking struct {
 	g.Meta      `orm:"table:service_booking, do:true"`
-	BookingId   interface{} //
+	BookingId   interface{} // 预约ID
 	ServiceId   interface{} // 服务ID
 	ElderUserId interface{} // 预约老人ID
 	BookedBy    interface{} // 预约人ID

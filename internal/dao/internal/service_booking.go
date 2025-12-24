@@ -21,7 +21,7 @@ type ServiceBookingDao struct {
 
 // ServiceBookingColumns defines and stores column names for the table service_booking.
 type ServiceBookingColumns struct {
-	BookingId   string //
+	BookingId   string // 预约ID
 	ServiceId   string // 服务ID
 	ElderUserId string // 预约老人ID
 	BookedBy    string // 预约人ID

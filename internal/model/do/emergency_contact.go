@@ -11,7 +11,7 @@ import (
 // EmergencyContact is the golang structure of table emergency_contact for DAO operations like Where/Data.
 type EmergencyContact struct {
 	g.Meta       `orm:"table:emergency_contact, do:true"`
-	ContactId    interface{} //
+	ContactId    interface{} // 联系人ID
 	UserId       interface{} // 所属用户ID
 	Name         interface{} // 联系人姓名
 	Phone        interface{} // 联系人电话

@@ -6,7 +6,7 @@ package entity
 
 // CommunityService is the golang structure for table community_service.
 type CommunityService struct {
-	ServiceId     int     `json:"serviceId"     orm:"serviceId"     description:""`             //
+	ServiceId     int     `json:"serviceId"     orm:"serviceId"     description:"服务ID"`         // 服务ID
 	ServiceName   string  `json:"serviceName"   orm:"serviceName"   description:"服务名称"`         // 服务名称
 	Price         float64 `json:"price"         orm:"price"         description:"服务价格"`         // 服务价格
 	Duration      int     `json:"duration"      orm:"duration"      description:"服务时长(分钟)"`     // 服务时长(分钟)

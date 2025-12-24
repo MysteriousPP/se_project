@@ -1,6 +1,11 @@
 
 # CLI tool, only in development environment.
 # https://goframe.org/docs/cli
+server:
+  address:     ":8000"
+  openapiPath: "/api.json"
+  swaggerPath: "/swagger"
+  
 gfcli:
   gen:
     dao:

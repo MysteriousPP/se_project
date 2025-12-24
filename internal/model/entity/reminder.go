@@ -10,7 +10,7 @@ import (
 
 // Reminder is the golang structure for table reminder.
 type Reminder struct {
-	ReminderId  int         `json:"reminderId"  orm:"reminderId"  description:""`                        //
+	ReminderId  int         `json:"reminderId"  orm:"reminderId"  description:"提醒ID"`                    // 提醒ID
 	CreatedBy   int         `json:"createdBy"   orm:"createdBy"   description:"创建人ID"`                   // 创建人ID
 	ElderUserId int         `json:"elderUserId" orm:"elderUserId" description:"提醒对象ID"`                  // 提醒对象ID
 	Title       string      `json:"title"       orm:"title"       description:"提醒标题"`                    // 提醒标题

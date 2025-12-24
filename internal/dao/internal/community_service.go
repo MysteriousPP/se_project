@@ -21,7 +21,7 @@ type CommunityServiceDao struct {
 
 // CommunityServiceColumns defines and stores column names for the table community_service.
 type CommunityServiceColumns struct {
-	ServiceId     string //
+	ServiceId     string // 服务ID
 	ServiceName   string // 服务名称
 	Price         string // 服务价格
 	Duration      string // 服务时长(分钟)

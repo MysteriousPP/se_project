@@ -22,9 +22,9 @@ type UserDao struct {
 // UserColumns defines and stores column names for the table user.
 type UserColumns struct {
 	UserID   string // 用户唯一ID
-	Phone    string // 登陆账号（手机号）
+	Phone    string // 登录账号（手机号）
 	Password string // SHA256加盐加密存储
-	Role     string // 1=银发端，2=子女端
+	Role     string // 1=银发端, 2=子女端
 	Nickname string // 用户昵称
 }
 

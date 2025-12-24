@@ -25,7 +25,7 @@ type BindRelationColumns struct {
 	ChildUserID string // 子女端用户ID
 	ElderUserId string // 银发端用户ID
 	BindTime    string // 绑定时间
-	Status      string // 1=有效，0=已解绑
+	Status      string // 1=有效, 0=已解绑
 }
 
 // bindRelationColumns holds the columns for the table bind_relation.

@@ -26,7 +26,7 @@ type HealthDataColumns struct {
 	HighBp      string // 高压值(mmHg)
 	LowBp       string // 低压值(mmHg)
 	MeasureTime string // 测量时间
-	UploadType  string // 1=手动，2=设备上传
+	UploadType  string // 1=手动, 2=设备上传
 }
 
 // healthDataColumns holds the columns for the table health_data.

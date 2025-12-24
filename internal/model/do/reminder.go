@@ -12,7 +12,7 @@ import (
 // Reminder is the golang structure of table reminder for DAO operations like Where/Data.
 type Reminder struct {
 	g.Meta      `orm:"table:reminder, do:true"`
-	ReminderId  interface{} //
+	ReminderId  interface{} // 提醒ID
 	CreatedBy   interface{} // 创建人ID
 	ElderUserId interface{} // 提醒对象ID
 	Title       interface{} // 提醒标题

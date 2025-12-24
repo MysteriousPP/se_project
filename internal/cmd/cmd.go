@@ -22,6 +22,7 @@ var (
 			s := g.Server()
 			s.Group("/", func(group *ghttp.RouterGroup) {
 				group.Middleware(ghttp.MiddlewareHandlerResponse)
+				group.Middleware(ghttp.MiddlewareCORS)
 				group.Bind(
 					hello.NewV1(),
 					user.User,

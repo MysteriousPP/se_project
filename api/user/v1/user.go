@@ -7,7 +7,7 @@ import (
 )
 
 type CreateReq struct {
-	g.Meta `path:"/user" method:"post" tags:"User" summary:"Create user"`
+	g.Meta `path:"/user/register" method:"post" tags:"User" summary:"Create user"`
 	userin.UserCreateInp
 }
 
@@ -16,7 +16,7 @@ type CreateRes struct {
 }
 
 type LoginReq struct {
-	g.Meta `path:"/user/login" method:"post" tags:"User" summary:"user login"`
+	g.Meta `path:"/auth/login" method:"post" tags:"User" summary:"user login"`
 	userin.UserLoginInp
 }
 

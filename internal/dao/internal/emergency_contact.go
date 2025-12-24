@@ -21,7 +21,7 @@ type EmergencyContactDao struct {
 
 // EmergencyContactColumns defines and stores column names for the table emergency_contact.
 type EmergencyContactColumns struct {
-	ContactId    string //
+	ContactId    string // 联系人ID
 	UserId       string // 所属用户ID
 	Name         string // 联系人姓名
 	Phone        string // 联系人电话

@@ -17,5 +17,5 @@ type HealthData struct {
 	HighBp      interface{} // 高压值(mmHg)
 	LowBp       interface{} // 低压值(mmHg)
 	MeasureTime *gtime.Time // 测量时间
-	UploadType  interface{} // 1=手动，2=设备上传
+	UploadType  interface{} // 1=手动, 2=设备上传
 }

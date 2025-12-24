@@ -21,10 +21,10 @@ type SosAlertDao struct {
 
 // SosAlertColumns defines and stores column names for the table sos_alert.
 type SosAlertColumns struct {
-	AlertId     string //
+	AlertId     string // 求助记录ID
 	ElderUserId string // 触发求助的老人ID
 	TriggerTime string // 触发时间
-	Location    string // 求助时的位置信息
+	Location    string // 求助时的详细地址描述
 	Longitude   string // 经度
 	Latitude    string // 纬度
 	Status      string // 1=待处理, 2=已接听, 3=已处理
